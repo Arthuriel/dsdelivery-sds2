@@ -18,51 +18,44 @@
 		<java.version>11</java.version>
 	</properties>
 
-
-
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId> <!-- dependencia para mexer com requisições web-->
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId> <!-- JPA ferramenta de mapemaneto de objeto relacional para acessar dadados-->
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 
 		<dependency>
-			<groupId>com.h2database</groupId> <!-- banco de dados h2 em memória que usaremos para fazer teste da aplicação  -->
+			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.postgresql</groupId> <!-- Banco de dados postgres que usaremos para implantar na nuvem -->
+			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.springframework.boot</groupId> <!-- Dependencia de validação caso precisemos fazer alguma validação no projeto -->
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 
 		<dependency>
-			<groupId>org.springframework.boot</groupId> <!--  -->
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
 		<dependency>
-			<groupId>org.springframework.boot</groupId> <!--  -->
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>	
-
-
-
-
+		</dependency>
 	</dependencies>
 
 	<build>
